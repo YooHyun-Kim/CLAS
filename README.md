@@ -4,8 +4,8 @@
 Chef: Light and Shadow (CLAS) is a community-driven platform that allows users to share their unique and personal recipes with others. Unlike standardized recipe platforms, CLAS emphasizes personal creativity and individual touch, allowing users to showcase hidden, creative recipes. This platform aims to build a community around sharing diverse cooking experiences.
 
 ## Table of Contents
-1. [Installation(Example)](#installation(example))
-2. [Usage(Example)](#usage(example))
+1. [Installation](#installation)
+2. [Usage](#usage)
 3. [Features](#features)
 4. [Contributing](#contributing)
 5. [License](#license)
@@ -33,7 +33,7 @@ This project draws inspiration from platforms like **AllRecipes**, **Yummly**, a
 - **Design & Feedback**: Dohyeong An (20011825)
 - **Programming**: Donghee Cheon (20011820)
 
-## Installation(Example)
+## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/CLAS.git
@@ -43,7 +43,7 @@ This project draws inspiration from platforms like **AllRecipes**, **Yummly**, a
    cd CLAS
    pip install -r requirements.txt
 
-## Usage(Example)
+## Usage
 1. Launch the web app:
    ```bash
    python app.py
