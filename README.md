@@ -65,3 +65,5 @@ This project is licensed under the Apache 2.0 License. See the [LICENSE](https:/
 ## Contact
 For questions or collaboration, contact Sangmok Bae at [bae6544@naver.com](mailto:bae6544@naver.com).
 
+"Thank you for visiting this repository! If you found this project useful, feel free to leave a star 🌟 and help it grow. Happy coding!"
+
