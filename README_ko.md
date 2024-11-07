@@ -6,10 +6,10 @@
 Chef: Light and Shadow (CLAS)는 사용자들이 독창적이고 개인적인 레시피를 다른 사람들과 공유할 수 있는 커뮤니티 기반 플랫폼입니다. 표준화된 레시피 플랫폼과 달리, CLAS는 개인의 창의성과 개성을 강조하여 숨겨진 창의적인 레시피를 보여줄 수 있도록 합니다. 이 플랫폼은 다양한 요리 경험을 공유하는 커뮤니티를 구축하는 것을 목표로 합니다.
 
 ## 목차
-1. [설치 방법](#설치 방법)
-2. [사용 방법](#사용 방법)
+1. [설치방법](#설치방법)
+2. [사용방법](#사용방법)
 3. [기능](#기능)
-4. [기여 방법](#기여 방법)
+4. [기여 방법](#기여방법)
 5. [라이선스](#라이선스)
 6. [연락처](#연락처)
 
@@ -35,7 +35,7 @@ Chef: Light and Shadow (CLAS)는 사용자들이 독창적이고 개인적인 �
 - **Design & Feedback**: Dohyeong An (20011825)
 - **Programming**: Donghee Cheon (20011820)
 
-## 설치 방법
+## 설치방법
 1. 저장소를 클론합니다:
    ```bash
    git clone https://github.com/yourusername/CLAS.git
@@ -45,13 +45,13 @@ Chef: Light and Shadow (CLAS)는 사용자들이 독창적이고 개인적인 �
    cd CLAS
    pip install -r requirements.txt
 
-## 사용 방법
+## 사용방법
 1. 웹 애플리케이션을 실행합니다:
    ```bash
    python app.py
 2. 브라우저에서 http://localhost:5000 으로 이동합니다.
 
-## 기여 방법
+## 기여방법
 기여하는 방법:  
 &emsp; 1.레포지토리를 포크합니다.  
 &emsp; 2.새 기능을 위한 브랜치를 생성합니다 (git checkout -b feature-branch).
