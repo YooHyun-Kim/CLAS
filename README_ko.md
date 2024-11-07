@@ -1,23 +1,66 @@
-Hugging Face Hub, 원격 아티팩트 및 원격 코드
-Transformers는 Hugging Face Hub와 긴밀하게 연결된 오픈 소스 소프트웨어입니다. 미리 다운로드된 모델 가중치를 사용하여 오프라인에서도 사용할 수 있지만, 모델을 다운로드하고 로컬에서 관리하는 매우 간단한 방법을 제공합니다.
+# Chef: Light and Shadow (CLAS)
 
-다른 플랫폼에서 업로드된 아티팩트를 다운로드할 때는 위험에 노출될 수 있습니다. 안전하게 실행 환경을 보호하기 위한 보안 권장 사항을 아래에서 확인해 주세요.
+<a href="https://github.com/YooHyun-Kim/CLAS/blob/main/README_ko.md">English</a>
 
-원격 아티팩트
-Hugging Face Hub에 업로드된 모델은 다양한 형식으로 제공됩니다. 우리는 safetensors 형식으로 모델을 업로드하고 다운로드할 것을 강력히 권장합니다. 이는 특히 임의 코드 실행을 방지하기 위해 특별히 개발된 형식으로, transformers 라이브러리에서 기본적으로 우선시됩니다.
+## Project Description
+Chef: Light and Shadow (CLAS) is a community-driven platform that allows users to share their unique and personal recipes with others. Unlike standardized recipe platforms, CLAS emphasizes personal creativity and individual touch, allowing users to showcase hidden, creative recipes. This platform aims to build a community around sharing diverse cooking experiences.
 
-pickle과 같은 안전하지 않은 형식의 모델을 로드하지 않도록 하기 위해 use_safetensors 파라미터를 사용하는 것이 좋습니다. 만약 .safetensors 파일이 없을 경우, transformers는 모델을 로드하는 과정에서 오류를 발생시킵니다.
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Features](#features)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. [Contact](#contact)
 
-원격 코드
-모델링
-Transformers는 다양한 모델 아키텍처를 지원하지만, Python 런타임과 Hugging Face Hub에 저장된 모델들 사이의 브리지 역할을 합니다.
+## Problem Statement
+Many unique and hidden recipes remain undiscovered, limiting opportunities to explore diverse cuisines. Existing platforms often highlight popular recipes but lack features for sharing personal, creative recipes. CLAS addresses this gap by offering a space for users to upload, share, and receive feedback on their recipes, fostering a creative culinary community.
 
-이 모델들을 사용하려면 trust_remote_code=True 파라미터를 설정해야 합니다. 이 인자를 사용할 때는 모델링 파일의 내용을 반드시 검증해야 합니다. 또한, 업데이트로부터 보호하기 위해 리비전을 설정하는 것이 좋습니다.
+## Research
+This project draws inspiration from platforms like **AllRecipes**, **Yummly**, and **Epicurious**. Unlike these, CLAS emphasizes user creativity and personal storytelling through food, encouraging unique recipe sharing.
 
-도구
-Agent 프레임워크를 통해 원격 도구를 다운로드하여 Agent가 사용할 수 있습니다. 도구는 사용자가 직접 지정해야 하지만, Agent가 이를 실행하면 코드가 로컬 시스템에서 실행된다는 점을 명심해야 합니다.
+## Features
+- **Recipe Upload**: Users can upload recipes with photos.
+- **Recipe Search**: Search recipes by keywords and ingredients.
+- **Community Feedback**: Users can rate, comment, and give feedback on each other's recipes.
+- **Differentiation**: Focuses on user creativity, allowing individuals to share personal cooking stories.
 
-따라서 도구를 Agent에 전달하기 전에 코드가 안전한지 확인하여 실행 환경과 로컬 시스템을 보호하는 것이 중요합니다.
+## Development Tools and Languages
+- **Programming Language**: Python
+- **Front-end**: HTML, CSS
 
-취약점 신고
-취약점을 신고하고 싶다면 security@huggingface.co로 보내 주세요. Hugging Face 보안팀에서 검토하고 다음 단계를 안내해 드릴 것입니다. 오픈 소스 관련 취약점을 신고할 경우, Huntr는 오픈 소프트웨어에 대한 취약점 공개 프로그램임을 참고해 주세요.
+## Team Responsibilities
+- **Leader**: Sangmok Bae (20011808) - Project Management
+- **Front-end**: Yoohyun Kim (20011801)
+- **Design & Feedback**: Dohyeong An (20011825)
+- **Programming**: Donghee Cheon (20011820)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/CLAS.git
+
+2. Navigate to the project directory and install dependencies:
+   ```bash
+   cd CLAS
+   pip install -r requirements.txt
+
+## Usage
+1. Launch the web app:
+   ```bash
+   python app.py
+2. Open your browser and go to http://localhost:5000.
+
+## Contributing
+To contribute:  
+&emsp; 1.Fork the repository.  
+&emsp; 2.Create a new branch for your feature (git checkout -b feature-branch).  
+&emsp; 3.Commit your changes (git commit -m "Add feature").  
+&emsp; 4.Push to the branch (git push origin feature-branch).  
+&emsp; 5.Open a pull request for review.  
+
+## License
+This project is licensed under the Apache 2.0 License. See the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0) file for details.
+
+## Contact
+For questions or collaboration, contact Sangmok Bae at [bae6544@naver.com](mailto:bae6544@naver.com).
