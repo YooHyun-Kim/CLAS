@@ -1,16 +1,17 @@
-
 ## Description
-- 간단한 PR 설명을 작성합니다.
+- This PR adds a new feature that allows users to search for recipes by ingredients.
+- It also fixes a bug where the recipe upload page would crash if an image was not provided.
 
 ## Changes
-- 변경 사항을 나열하세요.
-  - 예: 새로운 기능 추가
-  - 예: 버그 수정
+- Added a search bar on the main page that allows users to search recipes by ingredients.
+- Updated the recipe model to include a list of ingredients for search functionality.
+- Fixed a bug in the recipe upload feature where omitting an image would cause the page to crash.
 
 ## Motivation and Context
-- 이 변경 사항이 필요한 이유를 설명하세요.
+- The new search feature improves the user experience by making it easier to find recipes based on available ingredients.
+- The bug fix ensures that users can upload recipes without needing to attach an image, improving accessibility.
 
 ## Checklist:
-- [ ] 코드가 제대로 작동하는지 확인했습니다.
-- [ ] 테스트를 작성했고, 모든 테스트가 통과하는지 확인했습니다.
-- [ ] 문서가 최신 상태인지 확인했습니다.
+- [x] I have ensured that the code functions correctly.
+- [x] I have written tests and verified that all tests pass.
+- [x] I have updated documentation to reflect the changes.
