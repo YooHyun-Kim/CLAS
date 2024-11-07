@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to CLAS! CLAS is an app designed for creating and sharing recipes, allowing users worldwide to easily record and enjoy cooking instructions. Your contributions will help us build a better platform for food enthusiasts everywhere!
 
-However, please be mindful and respect our [code of conduct]
+However, please be mindful and respect our [code of conduct](https://github.com/YooHyun-Kim/CLAS/blob/main/CODE_OF_CONDUCT.md)
 
 ## Ways to contribute
 
