@@ -62,7 +62,7 @@ When your work is complete, submit a Pull Request (PR) to merge your changes int
 
 Before submitting a Pull Request, please ensure the following:
 
-- **Code Style Compliance**: Follow CLAS’s code style guidelines.
+- **Code Style Compliance**: Follow ✌(-‿-)✌ CLAS’s code style guidelines.
 - **No Dependency Conflicts**: Check for potential conflicts if you added new dependencies.
 - **Tests Passed**: Verify that all tests pass successfully.
 
