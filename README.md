@@ -4,8 +4,8 @@
 Chef: Light and Shadow (CLAS) is a community-driven platform that allows users to share their unique and personal recipes with others. Unlike standardized recipe platforms, CLAS emphasizes personal creativity and individual touch, allowing users to showcase hidden, creative recipes. This platform aims to build a community around sharing diverse cooking experiences.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
+1. [Installation](#installation(example))
+2. [Usage](#usage(example))
 3. [Features](#features)
 4. [Contributing](#contributing)
 5. [License](#license)
