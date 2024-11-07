@@ -1,31 +1,57 @@
 # Security Policy
 
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| (To be updated) | ✅ |
+
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in this project, please help us by disclosing it responsibly. You can report vulnerabilities by following these steps:
+If you discover a security vulnerability within this project, please follow these steps:
 
-1. **Send an email** to [bae6544@naver.com](mailto:bae6544@naver.com) with the details of the issue.
-2. **Include** as much information as possible about the vulnerability:
-   - A description of the vulnerability and its impact.
-   - Steps to reproduce the vulnerability.
-   - Any additional information that may be helpful for diagnosing and resolving the issue.
+1. **Immediate Reporting**: 
+   - Report the vulnerability to the project maintainers immediately.
+   - Send an email to [bae6544@naver.com](mailto:bae6544@naver.com) with the details of the issue.
 
-Please avoid opening a public GitHub Issue for security vulnerabilities to prevent accidental exposure of security risks to other users.
+2. **Private Disclosure**: 
+   - Do NOT post security vulnerabilities in the public issue tracker.
+   - Send a direct email to the project maintainers.
 
-## Response Time
+3. **Provide Details**:
+   - Detailed description of the vulnerability
+   - Steps to reproduce the vulnerability
+   - Potential solutions (if any)
+   - Your contact information for follow-up
 
-We commit to responding to security vulnerability reports within **48 hours**. Our typical response timeline is as follows:
-- **Acknowledgment** of receipt of the report within 48 hours.
-- **Investigation** and verification of the issue within 5 business days.
-- **Patch Release** or mitigation for confirmed vulnerabilities will be deployed as soon as possible, based on the complexity and impact of the vulnerability.
+4. **Response Time**:
+   - We will acknowledge your report within 24-48 hours
+   - We will provide updates on the resolution timeline
+   - We will notify you when the vulnerability is fixed
 
-## Fixes and Disclosure
+## Security Best Practices
 
-When a vulnerability is confirmed and resolved, we will:
-- Release a patch and notify all affected users.
-- Credit the individual or organization who reported the vulnerability (unless requested otherwise).
-- Provide a summary of the vulnerability and fix details, maintaining transparency without revealing sensitive information.
+When contributing to the project, please follow these security best practices:
+
+1. Never include sensitive information in code or documentation
+2. Keep all dependencies up to date
+3. Follow secure coding practices
+4. Consider security aspects during code reviews
 
 ## Supporting Information
 
 If you have any questions or need further clarification regarding our security policy, feel free to reach out via [bae6544@naver.com](mailto:bae6544@naver.com).
+
+## Disclosure Policy
+
+- The security team will work with you to understand and reproduce the issue
+- We will prepare fixes and coordinate release timing
+- We will acknowledge your contribution after the fix is released
+
+## Updates and Security Patches
+
+We are committed to:
+1. Promptly addressing security issues
+2. Regularly updating dependencies
+3. Maintaining clear security documentation
+4. Providing timely security patches
