@@ -51,11 +51,11 @@ This project draws inspiration from platforms like **AllRecipes**, **Yummly**, a
 
 ## Contributing
 To contribute:  
-   1.Fork the repository.  
-   2.Create a new branch for your feature (git checkout -b feature-branch).  
-   3.Commit your changes (git commit -m "Add feature").  
-   4.Push to the branch (git push origin feature-branch).  
-   5.Open a pull request for review.  
+&emsp; 1.Fork the repository.  
+&emsp; 2.Create a new branch for your feature (git checkout -b feature-branch).  
+&emsp; 3.Commit your changes (git commit -m "Add feature").  
+&emsp; 4.Push to the branch (git push origin feature-branch).  
+&emsp; 5.Open a pull request for review.  
 
 ## License
 This project is licensed under the Apache 2.0 License. See the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0) file for details.
