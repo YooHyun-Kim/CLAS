@@ -33,7 +33,7 @@ This project draws inspiration from platforms like **AllRecipes**, **Yummly**, a
 - **Design & Feedback**: Dohyeong An (20011825)
 - **Programming**: Donghee Cheon (20011820)
 
-## Installation
+## Installation(Example)
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/CLAS.git
@@ -43,7 +43,7 @@ This project draws inspiration from platforms like **AllRecipes**, **Yummly**, a
    cd CLAS
    pip install -r requirements.txt
 
-## Usage
+## Usage(Example)
 1. Launch the web app:
    ```bash
    python app.py
