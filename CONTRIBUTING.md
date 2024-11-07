@@ -1,4 +1,4 @@
-# Contribute to ⭐️ CLAS
+# Contribute to ✌(-‿-)✌ CLAS
 
 Thank you for your interest in contributing to CLAS! CLAS is an app designed for creating and sharing recipes, allowing users worldwide to easily record and enjoy cooking instructions. Your contributions will help us build a better platform for food enthusiasts everywhere!
 
@@ -6,7 +6,7 @@ However, please be mindful and respect our [code of conduct](https://github.com/
 
 ## Ways to contribute
 
-There are many ways to contribute to the ⭐️ CLAS project:
+There are many ways to contribute to the ✌(-‿-)✌ CLAS project:
 
 - **Bug Fixes**: Help us resolve issues and improve the code.
 - **New Feature Requests**: Suggest or implement new features to enhance the user experience.
@@ -29,7 +29,7 @@ If you encounter a bug while using the app, please report it by following these 
 
 ### Do you want a new feature?
 
-If you think a new feature would benefit ⭐️ CLAS, feel free to propose it:
+If you think a new feature would benefit ✌(-‿-)✌ CLAS, feel free to propose it:
 
 1. **Feature Request**: Open a feature request in [GitHub Issues](https://github.com/YooHyun-Kim/CLAS/tree/main/.github/ISSUE_TEMPLATE).
 2. **Describe Your Idea**: Explain why the feature would be valuable to users.
@@ -37,7 +37,7 @@ If you think a new feature would benefit ⭐️ CLAS, feel free to propose it:
 
 ## Do you want to implement a new model?
 
-Interested in implementing a model to improve ⭐️ CLAS’s recommendation system or enhance user experience? Here’s the process:
+Interested in implementing a model to improve ✌(-‿-)✌ CLAS’s recommendation system or enhance user experience? Here’s the process:
 
 1. **Propose the Model**: Open an issue describing the model's purpose and features.
 2. **Document the Design**: Outline the model design and implementation plan, then discuss with contributors.
@@ -52,7 +52,7 @@ Documentation is essential for both users and developers. You can add or update 
 - **Developer Guide**: Document the project setup and structure.
 - **API Documentation**: Add details about the APIs in use.
 
-If you want to improve the documentation, open an issue in [GitHub Issues](https://github.com/yourusername/CLAS/issues) with specific suggestions for improvement.
+If you want to improve the documentation, open an issue in [GitHub Issues](https://github.com/YooHyun-Kim/CLAS/tree/main/.github/ISSUE_TEMPLATE) with specific suggestions for improvement.
 
 ## Create a Pull Request
 
@@ -76,7 +76,7 @@ If your work involves new features or changes, sufficient tests should be includ
 
 ---
 
-Thank you for contributing! With your help, we can make CLAS a better recipe-sharing platform for everyone.
+Thank you for contributing! With your help, we can make ✌(-‿-)✌ CLAS a better recipe-sharing platform for everyone.
 
 
  
