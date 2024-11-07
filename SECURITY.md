@@ -1,17 +1,5 @@
 # Security Policy
 
-## Supported Versions
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
 ## Reporting a Vulnerability
 
 If you discover a security vulnerability in this project, please help us by disclosing it responsibly. You can report vulnerabilities by following these steps:
@@ -40,5 +28,4 @@ When a vulnerability is confirmed and resolved, we will:
 
 ## Supporting Information
 
-If you have any questions or need further clarification regarding our security policy, feel free to reach out via [security-team@example.com](mailto:security-team@example.com).
-
+If you have any questions or need further clarification regarding our security policy, feel free to reach out via [bae6544@naver.com](mailto:bae6544@naver.com).
