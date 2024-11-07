@@ -58,7 +58,7 @@ To contribute:
 5.Open a pull request for review.  
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the Apache 2.0 License. See the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0) file for details.
 
 ## Contact
 For questions or collaboration, contact Sangmok Bae at [email@example.com](mailto:example@example.com).
