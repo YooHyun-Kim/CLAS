@@ -30,10 +30,10 @@ Chef: Light and Shadow (CLAS)는 사용자들이 독창적이고 개인적인 �
 - **Front-end**: HTML, CSS
 
 ## 팀 역할
-- **Leader**: Sangmok Bae (20011808) - Project Management
-- **Front-end**: Yoohyun Kim (20011801)
-- **Design & Feedback**: Dohyeong An (20011825)
-- **Programming**: Donghee Cheon (20011820)
+- **Leader**: 배상목 (20011808) - Project Management
+- **Front-end**: 김유현 (20011801)
+- **Design & Feedback**: 안도형 (20011825)
+- **Programming**: 천동희 (20011820)
 
 ## 설치방법
 1. 저장소를 클론합니다:
