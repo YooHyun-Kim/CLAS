@@ -16,7 +16,7 @@ currently being supported with security updates.
 
 If you discover a security vulnerability in this project, please help us by disclosing it responsibly. You can report vulnerabilities by following these steps:
 
-1. **Send an email** to [security-team@example.com](mailto:security-team@example.com) with the details of the issue.
+1. **Send an email** to [bae6544@naver.com](bae6544@naver.com) with the details of the issue.
 2. **Include** as much information as possible about the vulnerability:
    - A description of the vulnerability and its impact.
    - Steps to reproduce the vulnerability.
