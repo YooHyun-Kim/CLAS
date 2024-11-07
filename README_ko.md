@@ -51,13 +51,13 @@ Chef: Light and Shadow (CLAS)는 사용자들이 독창적이고 개인적인 �
    python app.py
 2. 브라우저에서 http://localhost:5000 으로 이동합니다.
 
-## 기여방법
-기여하는 방법:  
+## 기여방법 
+기여하는 방법:    
 &emsp; 1.레포지토리를 포크합니다.  
-&emsp; 2.새 기능을 위한 브랜치를 생성합니다 (git checkout -b feature-branch).
-&emsp; 3.변경 사항을 커밋합니다 (git commit -m "Add feature").  
-&emsp; 4.브랜치를 푸시합니다 (git push origin feature-branch).
-&emsp; 5.검토를 위해 Pull Request를 엽니다.
+&emsp; 2.새 기능을 위한 브랜치를 생성합니다 (git checkout -b feature-branch).  
+&emsp; 3.변경 사항을 커밋합니다 (git commit -m "Add feature").    
+&emsp; 4.브랜치를 푸시합니다 (git push origin feature-branch).  
+&emsp; 5.검토를 위해 Pull Request를 엽니다.  
 
 ## 라이선스
 이 프로젝트는 Apache 2.0 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](https://www.apache.org/licenses/LICENSE-2.0) 파일을 참조하세요.
