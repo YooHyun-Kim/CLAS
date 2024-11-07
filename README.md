@@ -50,7 +50,7 @@ This project draws inspiration from platforms like **AllRecipes**, **Yummly**, a
 2. Open your browser and go to http://localhost:5000.
 
 ## Contributing
-To contribute:
+To contribute:  
 1.Fork the repository.  
 2.Create a new branch for your feature (git checkout -b feature-branch).  
 3.Commit your changes (git commit -m "Add feature").  
