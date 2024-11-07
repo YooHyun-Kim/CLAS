@@ -63,5 +63,5 @@ To contribute:
 This project is licensed under the Apache 2.0 License. See the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0) file for details.
 
 ## Contact
-For questions or collaboration, contact Sangmok Bae at [email@example.com](mailto:example@example.com).
+For questions or collaboration, contact Sangmok Bae at [bae6544@naver.com](mailto:bae6544@naver.com).
 
