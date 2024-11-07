@@ -1,72 +1,52 @@
 # Community Code of Conduct
 
-## Our Commitment
+## Purpose and Commitment
 
-As community members, contributors, and leaders, we are committed to creating an environment where everyone can engage without fear of harassment or discrimination. This commitment extends to all, regardless of age, body size, visible or hidden disabilities, ethnicity, sex characteristics, gender identity and expression, experience level, educational background, socio-economic status, nationality, appearance, race, religion, or sexual orientation.
+Our community is dedicated to providing a welcoming, inclusive, and respectful environment. We are committed to ensuring that every member feels safe, supported, and valued, regardless of their background, identity, or experience level. Our shared goal is to foster a positive, harassment-free experience for all.
 
-We aim to foster an open, welcoming, and healthy community by treating each other with respect, inclusiveness, and empathy.
+## Expected Behaviors
 
-## Our Standards
+To maintain a constructive and respectful environment, community members are expected to:
 
-Positive behaviors that help build a constructive environment include:
+* Show kindness and empathy towards others
+* Respect diverse opinions and experiences
+* Provide and accept constructive feedback thoughtfully
+* Take responsibility for their actions and learn from any mistakes
+* Prioritize the community's health and inclusivity over individual needs
 
-* Showing empathy and kindness toward others
-* Respecting diverse perspectives, viewpoints, and experiences
-* Offering and accepting constructive feedback gracefully
-* Acknowledging mistakes, apologizing to those affected, and learning from the experience
-* Prioritizing the community's well-being and inclusivity over individual interests
+## Unacceptable Behaviors
 
-Behaviors that disrupt a positive environment include:
+Actions that negatively impact the community and are not tolerated include:
 
-* Using sexualized language or imagery, or making sexual advances of any kind
-* Trolling, making insulting or derogatory comments, and engaging in personal or political attacks
-* Engaging in public or private harassment
-* Disclosing others' private information, such as physical or email addresses, without explicit consent
-* Any conduct that could be reasonably seen as inappropriate in a professional environment
+* Sexual language or imagery, or unwelcome sexual advances
+* Trolling, derogatory comments, personal attacks, or harassment of any kind
+* Sharing others' private information without permission
+* Other conduct that could be reasonably perceived as inappropriate for a professional community
 
-## Leadership Responsibilities
+## Accountability and Consequences
 
-Community leaders are tasked with upholding and enforcing these standards. Leaders may take fair and appropriate corrective action in response to any behavior deemed inappropriate, harmful, or offensive.
+Community leaders are responsible for interpreting and enforcing this Code of Conduct. Leaders may take any action deemed appropriate, including but not limited to the following:
 
-Leaders reserve the right to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that do not align with this Code of Conduct. Reasons for moderation will be communicated when deemed necessary.
+1. **Minor Infraction**: A private warning will be issued, clarifying the nature of the infraction and why it was inappropriate. A public apology may be requested.
+   
+2. **Formal Warning**: For repeated or serious issues, a formal warning will be issued, specifying that further incidents will lead to limited interactions or a temporary ban. This may include restrictions on participation in community spaces and other platforms.
 
-## Scope of Application
+3. **Temporary Ban**: In cases of severe or sustained disruption, a temporary ban from community interactions and events will be enforced. Continued infractions may lead to a permanent ban.
 
-This Code of Conduct applies across all community spaces and also extends to those representing the community in public contexts. Representing the community may include using an official email address, posting on an official social media account, or participating in public events as a designated representative.
+4. **Permanent Ban**: Members who repeatedly violate the community's standards or engage in particularly harmful actions may be permanently removed from all community activities and spaces.
 
-## Reporting and Enforcement
+## Reporting Incidents
 
-Reports of abusive, harassing, or otherwise unacceptable behavior may be directed to the community enforcement team at **bae6544@naver.com**. All complaints will be reviewed and investigated in a prompt and fair manner.
+Instances of abusive, harassing, or otherwise unacceptable behavior can be reported to community leaders at **bae6544@naver.com**. All reports will be treated with confidentiality and reviewed promptly.
 
-The privacy and security of individuals reporting incidents will be respected by all community leaders.
+## Application of Code
 
-## Guidelines for Enforcement
+This Code of Conduct applies across all community interactions, whether in online spaces, events, or public settings. Representing the community includes using official emails, social media accounts, or speaking at events on behalf of the community.
 
-The following guidelines will be used by community leaders to determine appropriate responses to violations:
+---
 
-### 1. Correction
+By participating in our community, members agree to uphold these standards and contribute to a welcoming, inclusive, and respectful environment. Thank you for being part of our community.
 
-**Community Impact**: Minor infractions, such as inappropriate language or behavior that is unprofessional.
-
-**Response**: A private written warning, explaining the violation and why the behavior was inappropriate. A public apology may be requested.
-
-### 2. Warning
-
-**Community Impact**: A more significant violation, either as a single incident or a series of actions.
-
-**Response**: A formal warning with consequences for continued behavior. This includes avoiding interactions with those involved for a specified time, both within community spaces and on external platforms such as social media. Continued infractions may result in a temporary or permanent ban.
-
-### 3. Temporary Ban
-
-**Community Impact**: A serious breach of community standards, such as ongoing disruptive behavior.
-
-**Response**: A temporary ban from all forms of community interaction and public communication for a defined period. During this time, no contact with involved individuals, including community leaders, is allowed. Further violations may result in a permanent ban.
-
-### 4. Permanent Ban
-
-**Community Impact**: Repeated violations, including persistent harassment or discrimination against individuals or groups.
-
-**Response**: A permanent ban from any form of public interaction in the community.
 
 ## Attribution
 
