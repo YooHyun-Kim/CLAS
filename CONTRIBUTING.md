@@ -23,21 +23,21 @@ Issues are a way to discuss and solve project improvements. You can check existi
 
 If you encounter a bug while using the app, please report it by following these steps:
 
-1. **Create an Issue**: Open a new issue in [GitHub Issues](https://github.com/yourusername/CLAS/issues).
+1. **Create an Issue**: Open a new issue in [GitHub Issues](https://github.com/YooHyun-Kim/CLAS/tree/main/.github/ISSUE_TEMPLATE).
 2. **Provide Details**: Include steps to reproduce, screenshots, and any other relevant information.
 3. **Update Progress**: If you’re working on fixing the bug, comment on the issue so other contributors are aware.
 
 ### Do you want a new feature?
 
-If you think a new feature would benefit CLAS, feel free to propose it:
+If you think a new feature would benefit ⭐️ CLAS, feel free to propose it:
 
-1. **Feature Request**: Open a feature request in [GitHub Issues](https://github.com/yourusername/CLAS/issues).
+1. **Feature Request**: Open a feature request in [GitHub Issues](https://github.com/YooHyun-Kim/CLAS/tree/main/.github/ISSUE_TEMPLATE).
 2. **Describe Your Idea**: Explain why the feature would be valuable to users.
 3. **Detailed Plan**: Share any ideas on implementation or design if you have them.
 
 ## Do you want to implement a new model?
 
-Interested in implementing a model to improve CLAS’s recommendation system or enhance user experience? Here’s the process:
+Interested in implementing a model to improve ⭐️ CLAS’s recommendation system or enhance user experience? Here’s the process:
 
 1. **Propose the Model**: Open an issue describing the model's purpose and features.
 2. **Document the Design**: Outline the model design and implementation plan, then discuss with contributors.
