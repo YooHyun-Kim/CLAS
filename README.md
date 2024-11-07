@@ -61,5 +61,5 @@ To contribute:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-For questions or collaboration, contact Sangmok Bae at [email@example.com](mailto:example@example.com)
+For questions or collaboration, contact Sangmok Bae at [email@example.com].(mailto:example@example.com)
 
