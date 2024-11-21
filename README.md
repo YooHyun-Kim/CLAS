@@ -1,6 +1,3 @@
-## Documentation
-The documentation for this project is hosted on [ReadTheDocs](https://CLAS.readthedocs.io).
-
 # Chef: Light and Shadow (CLAS)
 
 <a href="https://github.com/YooHyun-Kim/CLAS/blob/main/README_ko.md">한국어</a>
@@ -69,4 +66,9 @@ This project is licensed under the Apache 2.0 License. See the [LICENSE](https:/
 For questions or collaboration, contact Sangmok Bae at [bae6544@naver.com](mailto:bae6544@naver.com).
 
 "Thank you for visiting this repository! If you found this project useful, feel free to leave a star 🌟 and help it grow. Happy coding!"
+
+## Documentation
+The documentation for this project is hosted on [ReadTheDocs](https://CLAS.readthedocs.io).
+[📄 View Documentation on ReadTheDocs](https://CLAS.readthedocs.io)
+- **GitHub Pages Website**: [https://YooHyun-Kim.github.io/CLAS/](https://YooHyun-Kim.github.io/CLAS/)
 
