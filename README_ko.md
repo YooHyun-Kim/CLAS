@@ -69,3 +69,8 @@ Chef: Light and Shadow (CLAS)는 사용자들이 독창적이고 개인적인 �
 질문이나 협업 제안이 있는 경우 Sangmok Bae에게 [bae6544@naver.com](mailto:bae6544@naver.com)으로 연락해 주세요.
 
 "이 저장소를 방문해 주셔서 감사합니다! 이 프로젝트가 유용했다면 별점을 남겨 주시고 🌟 함께 성장할 수 있도록 도와주세요. 즐거운 코딩 되세요!"
+
+## 문서
+이 프로젝트의 문서는 [ReadTheDocs](https://CLAS.readthedocs.io)에서 호스팅됩니다.
+[📄 View Documentation on ReadTheDocs](https://CLAS.readthedocs.io)
+- **GitHub Pages Website**: [https://YooHyun-Kim.github.io/CLAS/](https://YooHyun-Kim.github.io/CLAS/)
