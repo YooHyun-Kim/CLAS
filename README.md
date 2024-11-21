@@ -1,3 +1,6 @@
+## Documentation
+The documentation for this project is hosted on [ReadTheDocs](*https://app.readthedocs.org/projects/clas/*).
+
 # Chef: Light and Shadow (CLAS)
 
 <a href="https://github.com/YooHyun-Kim/CLAS/blob/main/README_ko.md">한국어</a>
