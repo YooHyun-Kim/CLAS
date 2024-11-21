@@ -18,8 +18,12 @@ documentation for details.
    project_info
    getting_started
    usage
+   technical_overview
    architecture
    api_reference
-
+   configuration_guide
+   maintenance
+   contribution_guidelines
+   FAQ
 
 .
