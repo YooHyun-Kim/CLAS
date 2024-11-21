@@ -2,7 +2,7 @@
 
 <a href="https://github.com/YooHyun-Kim/CLAS/blob/main/README.md">English</a>
 
-## 프로젝스 설명
+## 프로젝트 설명
 Chef: Light and Shadow (CLAS)는 사용자들이 독창적이고 개인적인 레시피를 다른 사람들과 공유할 수 있는 커뮤니티 기반 플랫폼입니다. 표준화된 레시피 플랫폼과 달리, CLAS는 개인의 창의성과 개성을 강조하여 숨겨진 창의적인 레시피를 보여줄 수 있도록 합니다. 이 플랫폼은 다양한 요리 경험을 공유하는 커뮤니티를 구축하는 것을 목표로 합니다.
 
 ## 목차
