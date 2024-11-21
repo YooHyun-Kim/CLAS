@@ -1,7 +1,8 @@
 # Chef: Light and Shadow (CLAS)
 
 <a href="https://github.com/YooHyun-Kim/CLAS/blob/main/README.md">English</a>
-##문서
+
+## 문서
 이 프로젝트의 문서는 [ReadTheDocs](https://CLAS.readthedocs.io)에서 호스팅됩니다.
 
 ## 프로젝스 설명
