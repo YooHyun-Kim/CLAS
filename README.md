@@ -1,5 +1,5 @@
 ## Documentation
-The documentation for this project is hosted on [ReadTheDocs](*https://app.readthedocs.org/projects/clas/*).
+The documentation for this project is hosted on [ReadTheDocs](https://app.readthedocs.org/projects/clas/).
 
 # Chef: Light and Shadow (CLAS)
 
