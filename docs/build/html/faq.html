@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to CLAS Documentation! &mdash; CLAS 0.1 documentation</title>
+  <title>FAQ &mdash; CLAS 0.1 documentation</title>
   <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
   <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
   <script src="_static/jquery.js?v=5d32c60e"></script>
@@ -14,7 +14,7 @@
   <script src="_static/js/theme.js"></script>
   <link rel="index" title="Index" href="genindex.html" />
   <link rel="search" title="Search" href="search.html" />
-  <link rel="next" title="Project Information" href="project_info.html" />
+  <link rel="prev" title="Usage Instructions" href="usage.html" />
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -22,9 +22,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search">
-          <a href="#" class="icon icon-home">
-            CLAS
-          </a>
+          <a href="#" class="icon icon-home">CLAS</a>
           <div role="search">
             <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
               <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
@@ -40,9 +38,6 @@
             <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
             <li class="toctree-l1"><a class="reference internal" href="usage.html">Usage Instructions</a></li>
             <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
-            <li class="toctree-l1"><a class="reference internal" href="release_notes.html">Release Notes</a></li>
-            <li class="toctree-l1"><a class="reference internal" href="maintenance_and_contributing.html">Release Notes</a></li>
-
           </ul>
         </div>
       </div>
@@ -59,41 +54,64 @@
           <div role="navigation" aria-label="Page navigation">
             <ul class="wy-breadcrumbs">
               <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-              <li class="breadcrumb-item active">Welcome to CLAS Documentation!</li>
+              <li class="breadcrumb-item"><a href="usage.html">Usage Instructions</a></li>
+              <li class="breadcrumb-item active">FAQ</li>
               <li class="wy-breadcrumbs-aside">
-                <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+                <a href="_sources/faq.rst.txt" rel="nofollow"> View page source</a>
               </li>
             </ul>
             <hr/>
           </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div itemprop="articleBody">
-              <section id="welcome-to-clas-documentation">
-                <h1>Welcome to CLAS Documentation!<a class="headerlink" href="#welcome-to-clas-documentation" title="Link to this heading"></a></h1>
-                <p>Welcome to the documentation for the <strong>CLAS Project</strong>, an open-source initiative focused on enhancing collaboration and efficiency in software development.</p>
+              <section id="faq">
+                <h1>Frequently Asked Questions (FAQ)<a class="headerlink" href="#faq" title="Link to this heading"></a></h1>
+                <p>Here are some common questions about the CLAS project and their answers:</p>
                 
-                <h2>About the Project</h2>
-                <p>The CLAS project aims to provide:</p>
-                <ul>
-                  <li>A comprehensive platform for managing software projects.</li>
-                  <li>Integration with widely used tools like GitHub and ReadTheDocs.</li>
-                  <li>User-friendly interfaces and scalable solutions.</li>
-                </ul>
+                <h2>General Questions</h2>
+                <dl>
+                  <dt>What is the CLAS project?</dt>
+                  <dd>The CLAS project is an open-source initiative aimed at improving collaboration and efficiency in software development through innovative tools and frameworks.</dd>
 
-                <h2>Quick Links</h2>
-                <ul>
-                  <li><a href="getting_started.html">Getting Started</a>: Learn how to set up and use the CLAS platform.</li>
-                  <li><a href="project_info.html">Project Information</a>: Details about the goals, architecture, and technologies used.</li>
-                  <li><a href="usage.html">Usage Instructions</a>: Step-by-step guides for using core features.</li>
-                  <li><a href="faq.html">FAQ</a>: Answers to frequently asked questions.</li>
-                  <li><a href="release_notes.html">Release Notes</a>: Information about recent updates and changes.</li>
-                </ul>
+                  <dt>Is CLAS free to use?</dt>
+                  <dd>Yes, CLAS is completely free and open-source under the MIT License.</dd>
+                </dl>
+
+                <h2>Setup and Installation</h2>
+                <dl>
+                  <dt>What are the system requirements?</dt>
+                  <dd>CLAS requires Python 3.8 or higher, pip package manager, and Git for version control. Refer to the <a href="getting_started.html">Getting Started</a> page for more details.</dd>
+
+                  <dt>How do I install CLAS?</dt>
+                  <dd>You can install CLAS by cloning the repository and running the installation commands as described in the <a href="getting_started.html">Getting Started</a> section.</dd>
+                </dl>
+
+                <h2>Usage</h2>
+                <dl>
+                  <dt>How do I start the application?</dt>
+                  <dd>Run the following command to start the main application:</dd>
+                  <pre><code>python main.py</code></pre>
+
+                  <dt>Can I customize the configuration?</dt>
+                  <dd>Yes, you can use a custom configuration file by specifying the <code>--config</code> flag:</dd>
+                  <pre><code>python main.py --config custom_config.yaml</code></pre>
+                </dl>
+
+                <h2>Troubleshooting</h2>
+                <dl>
+                  <dt>I get a "Module not found" error. What should I do?</dt>
+                  <dd>Ensure all dependencies are installed by running:</dd>
+                  <pre><code>pip install -r requirements.txt</code></pre>
+
+                  <dt>Where can I report a bug?</dt>
+                  <dd>You can report bugs or issues on our <a href="https://github.com/your-repo/issues">GitHub Issues</a> page.</dd>
+                </dl>
               </section>
             </div>
           </div>
           <footer>
             <div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-              <a href="project_info.html" class="btn btn-neutral float-right" title="Project Information" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+              <a href="usage.html" class="btn btn-neutral float-left" title="Usage Instructions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
             </div>
             <hr/>
             <div role="contentinfo">
