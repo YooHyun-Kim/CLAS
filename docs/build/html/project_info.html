@@ -1,126 +1,176 @@
-
-
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" data-content_root="./">
+<html lang="ko">
 <head>
-  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Project - CLAS</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project Information &mdash; CLAS 0.1 documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+        /* Navigation Bar */
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-links li {
+            display: inline;
+        }
+        .navbar .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            transition: background 0.3s, color 0.3s;
+            font-size: 16px;
+        }
+        .navbar .nav-links a:hover {
+            background: #555;
+            border-radius: 5px;
+            color: #ff6f61;
+        }
 
-  
-      <script src="_static/jquery.js?v=5d32c60e"></script>
-      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=2709fde1"></script>
-      <script src="_static/doctools.js?v=9bcbadda"></script>
-      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/js/theme.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Getting Started" href="getting_started.html" />
-    <link rel="prev" title="Welcome to CLAS Documentation!" href="index.html" /> 
+        /* Hero Section */
+        .hero {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* About Section */
+        .about-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about-container h2 {
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .about-container p {
+            margin-bottom: 15px;
+            color: #555;
+            line-height: 1.8;
+        }
+        .about-container ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #555;
+        }
+        .about-container ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
 </head>
-
-<body class="wy-body-for-nav"> 
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
-
-          
-          
-          <a href="index.html" class="icon icon-home">
-            CLAS
-          </a>
-<div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
-        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Project Information</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#overview">Overview:</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#goals">Goals:</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
-</ul>
-
-        </div>
-      </div>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">CLAS</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="features.html">Feature</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">CLAS</a>
-      </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>About the Project</h1>
+        <p>Discover the vision, mission, and objectives of CLAS.</p>
+    </section>
 
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="Page navigation">
-  <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Project Information</li>
-      <li class="wy-breadcrumbs-aside">
-            <a href="_sources/project_info.rst.txt" rel="nofollow"> View page source</a>
-      </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-             
-  <section id="project-information">
-<h1>Project Information<a class="headerlink" href="#project-information" title="Link to this heading"></a></h1>
-<section id="overview">
-<h2>Overview:<a class="headerlink" href="#overview" title="Link to this heading"></a></h2>
-<p>Our project, <strong>My Open Source Project</strong>, aims to solve XYZ problem by providing an intuitive and user-friendly platform.</p>
-</section>
-<section id="goals">
-<h2>Goals:<a class="headerlink" href="#goals" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>Simplify workflows.</p></li>
-<li><p>Improve productivity.</p></li>
-<li><p>Provide robust APIs for developers.</p></li>
-</ol>
-</section>
-</section>
+    <!-- About Section -->
+    <div class="about-container">
+        <h2>Overview</h2>
+        <p>
+            The <strong>Chef Light and Shadow (CLAS)</strong> project aims to create a dynamic platform where individuals can
+            share their personal recipes, explore new cuisines, and connect with a vibrant community of cooking enthusiasts.
+            Our mission is to make cooking accessible, creative, and enjoyable for everyone.
+        </p>
 
+        <h2>Goals</h2>
+        <ul>
+            <li>Provide a user-friendly interface for sharing and searching recipes.</li>
+            <li>Foster a community-driven approach to culinary discovery.</li>
+            <li>Encourage creativity by allowing users to personalize their recipe stories.</li>
+            <li>Improve cooking experiences with advanced search and filtering options.</li>
+        </ul>
 
-           </div>
-          </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to CLAS Documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="getting_started.html" class="btn btn-neutral float-right" title="Getting Started" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <h2>Key Features</h2>
+        <p>Some of the unique features of CLAS include:</p>
+        <ul>
+            <li><strong>Recipe Upload:</strong> Users can upload recipes with step-by-step instructions and personal stories.</li>
+            <li><strong>Recipe Search:</strong> Advanced search filters help users find recipes tailored to their preferences.</li>
+            <li><strong>Community Feedback:</strong> A rating and comment system to improve and refine shared recipes.</li>
+            <li><strong>Personalization:</strong> Each recipe includes a unique story behind its creation.</li>
+        </ul>
+
+        <h2>Why CLAS?</h2>
+        <p>
+            Unlike other platforms, CLAS focuses on individuality and storytelling in the culinary world. 
+            Our vision is to inspire creativity and foster connections through cooking.
+            With CLAS, every recipe is more than just instructions—it's a journey.
+        </p>
+
+        <h2>Expected Impact</h2>
+        <ul>
+            <li>Empower home chefs to share and gain recognition for their unique creations.</li>
+            <li>Help users explore diverse cuisines and cooking methods.</li>
+            <li>Create a supportive and interactive culinary community.</li>
+        </ul>
     </div>
 
-  <hr/>
-
-  <div role="contentinfo">
-    <p>&#169; Copyright 2024, Sangmok.</p>
-  </div>
-
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
-   
-
-</footer>
-        </div>
-      </div>
-    </section>
-  </div>
-  <script>
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(true);
-      });
-  </script> 
-
+    <!-- Footer -->
+    <footer class="footer">
+        &copy; 2024 Chef Light and Shadow (CLAS). All rights reserved.
+    </footer>
 </body>
 </html>
