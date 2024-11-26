@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Showcase - CLAS</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-links li {
+            display: inline;
+        }
+        .navbar .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            transition: background 0.3s, color 0.3s;
+            font-size: 16px;
+        }
+        .navbar .nav-links a:hover {
+            background: #555;
+            border-radius: 5px;
+            color: #ff6f61;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Feature Section */
+        .features {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 상단 3개 */
+            gap: 20px;
+        }
+        .features-row-2 {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 하단 2개 */
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .feature-card h3 {
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: #ff6f61;
+        }
+        .feature-card p {
+            margin: 0;
+            color: #555;
+            font-size: 16px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">CLAS</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="feature.html">Feature</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Feature Showcase</h1>
+        <p>Discover the key functionalities and capabilities of CLAS.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <!-- 첫 번째 줄 3개 -->
+        <div class="feature-card">
+            <h3>Recipe Upload</h3>
+            <p>Share your culinary creations with the world. Upload recipes with step-by-step instructions and high-quality details.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Recipe Search</h3>
+            <p>Explore recipes based on ingredients, categories, or dietary preferences. Find your next favorite dish effortlessly.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Community Feedback</h3>
+            <p>Engage with a vibrant community. Get ratings and constructive feedback to improve your recipes.</p>
+        </div>
+    </section>
+
+    <!-- 두 번째 줄 2개 -->
+    <section class="features-row-2">
+        <div class="feature-card">
+            <h3>Personal Touch</h3>
+            <p>Add a unique story to your recipes. Share the memories and moments that inspired your culinary journey.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Advanced Filters</h3>
+            <p>Refine your search with customizable filters to find recipes that match your needs and preferences.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        &copy; 2024 Chef Light and Shadow (CLAS). All rights reserved.
+    </footer>
+</body>
+</html>
