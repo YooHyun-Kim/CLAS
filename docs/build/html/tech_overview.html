@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Overview - CLAS</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-links li {
+            display: inline;
+        }
+        .navbar .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            transition: background 0.3s, color 0.3s;
+            font-size: 16px;
+        }
+        .navbar .nav-links a:hover {
+            background: #555;
+            border-radius: 5px;
+            color: #ff6f61;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Technical Overview Section */
+        .tech-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .tech-container h2 {
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .tech-container p {
+            margin-bottom: 15px;
+            color: #555;
+            line-height: 1.8;
+        }
+        .tech-container ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #555;
+        }
+        .tech-container ul li {
+            margin-bottom: 10px;
+        }
+        .tech-container pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 14px;
+            color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">CLAS</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="features.html">Feature</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="tec_overview.html">Technical Overview</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Technical Overview</h1>
+        <p>Explore the architecture, core components, and technologies behind CLAS.</p>
+    </section>
+
+    <!-- Technical Overview Section -->
+    <div class="tech-container">
+        <h2>Project Architecture</h2>
+        <p>
+            The CLAS platform is built on a modular architecture that ensures scalability, maintainability, and flexibility.
+            It is divided into three main layers:
+        </p>
+        <ul>
+            <li><strong>Frontend:</strong> Built with HTML, CSS, and JavaScript, providing an intuitive and user-friendly interface.</li>
+            <li><strong>Backend:</strong> Powered by Python with Django Framework for efficient data handling and business logic implementation.</li>
+            <li><strong>Database:</strong> Uses PostgreSQL for secure and scalable data storage, ensuring efficient query performance.</li>
+        </ul>
+
+        <h2>Core Components</h2>
+        <p>The platform is composed of the following core components:</p>
+        <ul>
+            <li><strong>Recipe Management:</strong> Handles uploading, editing, and managing recipes.</li>
+            <li><strong>Search Engine:</strong> Advanced search and filtering based on keywords, ingredients, and categories.</li>
+            <li><strong>Community Interaction:</strong> Includes comment systems, ratings, and feedback loops to foster collaboration.</li>
+            <li><strong>Authentication:</strong> Secure login and registration using Django's authentication framework.</li>
+        </ul>
+
+        <h2>Underlying Technologies</h2>
+        <p>The following technologies power the CLAS platform:</p>
+        <ul>
+            <li><strong>Frontend:</strong> HTML, CSS (with Flexbox and Grid), and JavaScript.</li>
+            <li><strong>Backend:</strong> Django Framework (Python 3.8+).</li>
+            <li><strong>Database:</strong> PostgreSQL for relational data storage.</li>
+            <li><strong>APIs:</strong> Django REST Framework (DRF) for building RESTful APIs.</li>
+            <li><strong>Deployment:</strong> Hosted on AWS EC2 with Docker for containerization.</li>
+            <li><strong>Version Control:</strong> Git and GitHub for collaborative development.</li>
+        </ul>
+
+        <h2>Deployment Workflow</h2>
+        <p>Below is an overview of the deployment workflow:</p>
+        <pre><code>1. Clone the repository:
+git clone https://github.com/your-repo-link/CLAS.git
+
+2. Build Docker containers:
+docker-compose build
+
+3. Run the application:
+docker-compose up
+
+4. Access the application at:
+http://localhost:8000</code></pre>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        &copy; 2024 Chef Light and Shadow (CLAS). All rights reserved.
+    </footer>
+</body>
+</html>

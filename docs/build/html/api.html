@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Reference - CLAS</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-links li {
+            display: inline;
+        }
+        .navbar .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            transition: background 0.3s, color 0.3s;
+            font-size: 16px;
+        }
+        .navbar .nav-links a:hover {
+            background: #555;
+            border-radius: 5px;
+            color: #ff6f61;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* API Reference Section */
+        .api-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .api-container h2 {
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .api-container h3 {
+            color: #333;
+            margin-top: 30px;
+        }
+        .api-container p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .api-container ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #555;
+        }
+        .api-container ul li {
+            margin-bottom: 10px;
+        }
+        .api-container pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 14px;
+            color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">CLAS</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="features.html">Feature</a></li>
+            <li><a href="tec_overview.html">Technical Overview</a></li>
+            <li><a href="api_reference.html">API Reference</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>API Reference</h1>
+        <p>Learn about the available APIs, endpoints, and usage examples for CLAS.</p>
+    </section>
+
+    <!-- API Reference Section -->
+    <div class="api-container">
+        <h2>Overview</h2>
+        <p>The CLAS API provides programmatic access to manage and interact with recipes, users, and community features.</p>
+
+        <h3>Base URL</h3>
+        <pre><code>https://api.clasplatform.com/v1</code></pre>
+
+        <h3>Endpoints</h3>
+
+        <!-- Recipe Management API -->
+        <h4>1. Recipe Management</h4>
+        <ul>
+            <li><strong>GET /recipes</strong>: Retrieve a list of all recipes.</li>
+            <li><strong>POST /recipes</strong>: Create a new recipe.</li>
+            <li><strong>GET /recipes/{id}</strong>: Retrieve details of a specific recipe by ID.</li>
+            <li><strong>PUT /recipes/{id}</strong>: Update an existing recipe by ID.</li>
+            <li><strong>DELETE /recipes/{id}</strong>: Delete a recipe by ID.</li>
+        </ul>
+
+        <h3>Request and Response Examples</h3>
+
+        <h4>GET /recipes</h4>
+        <p><strong>Description:</strong> Fetch a list of all available recipes.</p>
+        <pre><code>Request:
+GET /recipes
+Headers:
+  Authorization: Bearer {token}
+
+Response:
+Status: 200 OK
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "author": "John Doe",
+    "ingredients": ["spaghetti", "eggs", "bacon", "cheese"],
+    "instructions": "Cook spaghetti. Mix eggs and cheese. Add bacon. Combine."
+  },
+  ...
+]</code></pre>
+
+        <h4>POST /recipes</h4>
+        <p><strong>Description:</strong> Create a new recipe.</p>
+        <pre><code>Request:
+POST /recipes
+Headers:
+  Content-Type: application/json
+  Authorization: Bearer {token}
+Body:
+{
+  "title": "Pancakes",
+  "ingredients": ["flour", "milk", "eggs", "sugar"],
+  "instructions": "Mix ingredients. Heat pan. Pour batter. Flip when bubbles form."
+}
+
+Response:
+Status: 201 Created
+{
+  "id": 2,
+  "title": "Pancakes",
+  "author": "Jane Smith",
+  "ingredients": ["flour", "milk", "eggs", "sugar"],
+  "instructions": "Mix ingredients. Heat pan. Pour batter. Flip when bubbles form."
+}</code></pre>
+
+        <h4>Authentication</h4>
+        <p>All API requests require an access token. Include the token in the <code>Authorization</code> header:</p>
+        <pre><code>Authorization: Bearer {token}</code></pre>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        &copy; 2024 Chef Light and Shadow (CLAS). All rights reserved.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuration Guide - CLAS</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .logo a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-links li {
+            display: inline;
+        }
+        .navbar .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            transition: background 0.3s, color 0.3s;
+            font-size: 16px;
+        }
+        .navbar .nav-links a:hover {
+            background: #555;
+            border-radius: 5px;
+            color: #ff6f61;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Configuration Guide Section */
+        .config-container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .config-container h2 {
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .config-container h3 {
+            color: #333;
+            margin-top: 30px;
+        }
+        .config-container p {
+            margin-bottom: 15px;
+            color: #555;
+            line-height: 1.8;
+        }
+        .config-container ul {
+            margin: 0;
+            padding-left: 20px;
+            color: #555;
+        }
+        .config-container ul li {
+            margin-bottom: 10px;
+        }
+        .config-container pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 14px;
+            color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">CLAS</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="features.html">Feature</a></li>
+            <li><a href="tec_overview.html">Technical Overview</a></li>
+            <li><a href="configuration_guide.html">Configuration Guide</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Configuration Guide</h1>
+        <p>Learn about configuration options, default settings, and customization methods for CLAS.</p>
+    </section>
+
+    <!-- Configuration Guide Section -->
+    <div class="config-container">
+        <h2>Configuration Options</h2>
+        <p>The CLAS platform provides various configuration options to customize the application according to your needs. Below are the key configuration files:</p>
+        <ul>
+            <li><strong><code>settings.py</code>:</strong> Core configuration file for the backend, including database settings, API keys, and middleware.</li>
+            <li><strong><code>config.json</code>:</strong> Frontend configuration file for customizing UI components, themes, and API endpoints.</li>
+        </ul>
+
+        <h3>Default Settings</h3>
+        <p>Here are some default settings in the <code>settings.py</code> file:</p>
+        <pre><code># Default settings in settings.py
+DEBUG = True
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'clas_db',
+        'USER': 'clas_user',
+        'PASSWORD': 'securepassword',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+SECRET_KEY = 'your-secret-key'</code></pre>
+
+        <h3>Customization Methods</h3>
+        <p>To customize the configuration, follow these steps:</p>
+        <ol>
+            <li><strong>Modify <code>settings.py</code>:</strong> Update the database credentials, secret key, and debug mode for production.</li>
+            <li><strong>Customize <code>config.json</code>:</strong> Adjust the API endpoints and frontend theme as per your requirements. Example:</li>
+        </ol>
+        <pre><code>{
+  "api_base_url": "https://api.clasplatform.com/v1",
+  "theme": {
+    "primary_color": "#ff6f61",
+    "secondary_color": "#333",
+    "font": "Arial"
+  }
+}</code></pre>
+
+        <h3>Environment Variables</h3>
+        <p>For sensitive data such as API keys and database credentials, use environment variables. Create a <code>.env</code> file:</p>
+        <pre><code># .env file example
+SECRET_KEY=your-production-secret-key
+DB_NAME=clas_db
+DB_USER=clas_user
+DB_PASSWORD=securepassword
+DB_HOST=localhost
+DB_PORT=5432</code></pre>
+        <p>Load environment variables using the <code>dotenv</code> library in Python:</p>
+        <pre><code># Load .env variables in settings.py
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+SECRET_KEY = os.getenv('SECRET_KEY')
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.getenv('DB_NAME'),
+        'USER': os.getenv('DB_USER'),
+        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'HOST': os.getenv('DB_HOST'),
+        'PORT': os.getenv('DB_PORT'),
+    }
+}</code></pre>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        &copy; 2024 Chef Light and Shadow (CLAS). All rights reserved.
+    </footer>
+</body>
+</html>
