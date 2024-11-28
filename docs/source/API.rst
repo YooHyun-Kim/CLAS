@@ -11,13 +11,13 @@ Authentication Header
     Authorization: Bearer <your_access_token>
 
 Base Endpoints
---------------
+
 
 User Management
-~~~~~~~~~~~~~~~
+
 
 Register User
-^^^^^^^^^^^^^
+
 * **Endpoint:** ``/api/v1/users/register``
 * **Method:** POST
 * **Request Body:**
@@ -42,7 +42,7 @@ Register User
     }
 
 Get User Profile
-^^^^^^^^^^^^^^^^
+
 * **Endpoint:** ``/api/v1/users/profile``
 * **Method:** GET
 * **Response:**
@@ -58,10 +58,10 @@ Get User Profile
     }
 
 Recipe Endpoints
-~~~~~~~~~~~~~~~~
+
 
 Create Recipe
-^^^^^^^^^^^^^
+
 * **Endpoint:** ``/api/v1/recipes/create``
 * **Method:** POST
 * **Request Body:**
@@ -87,7 +87,7 @@ Create Recipe
     }
 
 Get Recipe
-^^^^^^^^^^
+
 * **Endpoint:** ``/api/v1/recipes/{recipe_id}``
 * **Method:** GET
 * **Response:**
@@ -104,7 +104,7 @@ Get Recipe
     }
 
 Like Recipe
-^^^^^^^^^^^
+
 * **Endpoint:** ``/api/v1/recipes/{recipe_id}/like``
 * **Method:** POST
 * **Response:**
@@ -117,10 +117,10 @@ Like Recipe
     }
 
 Ranking Endpoints
-~~~~~~~~~~~~~~~~~
+
 
 Get Tier Rankings
-^^^^^^^^^^^^^^^^^
+
 * **Endpoint:** ``/api/v1/rankings``
 * **Method:** GET
 * **Parameters:**
@@ -145,7 +145,7 @@ Get Tier Rankings
     }
 
 Error Handling
---------------
+
 API returns standard HTTP status codes:
 
 * ``200``: Successful request
@@ -188,7 +188,7 @@ Example Webhook Payload
     }
 
 SDK and Library Support
------------------------
+
 * Official Python SDK available
 * Community-contributed libraries for:
     - JavaScript
@@ -196,7 +196,7 @@ SDK and Library Support
     - Go
 
 Version History
----------------
+
 * ``v1.0.0``: Initial release
 * ``v1.1.0``: Added ranking and tier system
 * ``v1.2.0``: Enhanced API capabilities
