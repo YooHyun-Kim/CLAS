@@ -1,4 +1,4 @@
-Project Info
+About the Project
 =============================
 
 Overview:
