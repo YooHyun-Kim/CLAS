@@ -1,15 +1,21 @@
 Release Notes
 -------------
 
-***v1.0.0 - Initial Platform Launch***
+**v1.0.0 - Initial Platform Launch**
+
 :Date: 2024-MM-DD
+
 :Version: 1.0.0
 
 Features
 * Social recipe sharing platform launched
+
 * Unique 'Light' and 'Black' tier ranking system
+
 * User authentication and profile management
+
 * Real-time recipe voting mechanism
+
 * Comprehensive recipe submission interface
 
 System Requirements
@@ -20,7 +26,7 @@ Stable internet connection
 Breaking Changes
 * Initial release - no breaking changes
 
-v1.1.0 - Performance and UX Enhancement
+**v1.1.0 - Performance and UX Enhancement**
 
 
 :Date: Upcoming
