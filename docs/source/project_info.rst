@@ -1,12 +1,12 @@
 About the Project
 =============================
 
-Overview:
+Overview
 ---------
 
 Our project, **Black and White Chef**, aims to bridge the gap between personal recipe sharing and culinary exploration. By uncovering and promoting hidden recipes from individuals, we provide a platform where culinary creativity meets accessibility.
 
-Goals:
+Goals
 ------
 
 1. Provide a user-friendly platform to share and discover unique, personal recipes.
