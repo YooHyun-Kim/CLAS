@@ -26,7 +26,7 @@ Contents:
 About the Project
 -----------------
 
-The CLAS (Customizable Automated Logging System) is a robust and user-friendly solution designed for efficient data tracking and logging. Its primary goal is to simplify the integration of logging functionality into diverse applications and enhance operational insights. CALS supports a wide range of customization options and technologies, ensuring adaptability across various domains.
+The CLAS (Chef: Light And Shadow) is a robust and user-friendly solution designed for efficient data tracking and logging. Its primary goal is to simplify the integration of logging functionality into diverse applications and enhance operational insights. CALS supports a wide range of customization options and technologies, ensuring adaptability across various domains.
 
 Getting Started
 ---------------
