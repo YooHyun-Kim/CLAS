@@ -1,8 +1,8 @@
-.. CALS documentation master file, created by
+.. CLAS documentation master file, created by
    sphinx-quickstart on Thu Nov 16 00:00:00 2023.
    You can adapt this file to your needs.
 
-Welcome to CALS Documentation
+Welcome to CLAS Documentation
 =============================
 
 Contents:
@@ -26,12 +26,12 @@ Contents:
 About the Project
 -----------------
 
-The CALS (Customizable Automated Logging System) is a robust and user-friendly solution designed for efficient data tracking and logging. Its primary goal is to simplify the integration of logging functionality into diverse applications and enhance operational insights. CALS supports a wide range of customization options and technologies, ensuring adaptability across various domains.
+The CLAS (Customizable Automated Logging System) is a robust and user-friendly solution designed for efficient data tracking and logging. Its primary goal is to simplify the integration of logging functionality into diverse applications and enhance operational insights. CALS supports a wide range of customization options and technologies, ensuring adaptability across various domains.
 
 Getting Started
 ---------------
 
-This section guides users through the installation of CALS. Prerequisites include:
+This section guides users through the installation of CLAS. Prerequisites include:
 - Python 3.8 or higher
 - Required libraries (see requirements.txt)
 
@@ -44,7 +44,7 @@ How to Use
 ----------
 
 Step-by-step examples:
-1. Import the CALS library.
+1. Import the CLAS library.
 2. Configure logging settings using the configuration file.
 3. Initialize logging using:
    `cals_logger = CALSLogger(config)`
@@ -54,7 +54,7 @@ Examples for each scenario (e.g., API logging, error monitoring) are provided in
 Technical Overview
 ------------------
 
-CALS is built on the following technologies:
+CLAS is built on the following technologies:
 - Python-based backend
 - YAML/JSON configuration options for flexibility
 - Asynchronous processing for high performance
