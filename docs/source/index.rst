@@ -26,7 +26,7 @@ Contents:
 About the Project
 -----------------
 
-The CLAS (Chef: Light And Shadow) is a robust and user-friendly solution designed for efficient data tracking and logging. Its primary goal is to simplify the integration of logging functionality into diverse applications and enhance operational insights. CLAS supports a wide range of customization options and technologies, ensuring adaptability across various domains.
+Chef: Light and Shadow (CLAS) is a revolutionary social platform that transforms home cooking into an engaging competitive experience. Users share their culinary secrets, recipes, and cooking tips in a dynamic community where skill and creativity are rewarded through a unique ranking system. The platform divides users into 'light' and 'black' tiers based on their recipe popularity, with the top 10% earning 'light' status and challenging others to elevate their cooking game. By gamifying recipe sharing and culinary innovation, CLAS aims to democratize cooking knowledge, inspire home chefs, and cultivate a more collaborative and exciting food culture where everyone can learn, compete, and grow together.
 
 Getting Started
 ---------------
