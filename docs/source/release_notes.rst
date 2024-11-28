@@ -1,4 +1,6 @@
-CLAS Release Notes
+Release Notes
+-------------
+
 v1.0.0 - Initial Platform Launch
 :Date: 2024-MM-DD
 :Version: 1.0.0
@@ -18,13 +20,13 @@ Breaking Changes
 * Initial release - no breaking changes
 
 v1.1.0 - Performance and UX Enhancement
----------------------------------------
+
 
 :Date: Upcoming
 :Version: 1.1.0
 
 New Features
-~~~~~~~~~~~~
+
 * Enhanced user recommendation algorithm
 * Improved recipe search and filtering capabilities
 * Advanced recipe trend analytics dashboard
@@ -46,7 +48,7 @@ Bug Fixes
 * Stabilized real-time voting mechanism
 
 v1.2.0 - Community Collaboration Edition
-----------------------------------------
+
 
 Planned Features
 
