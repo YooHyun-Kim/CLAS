@@ -1,7 +1,7 @@
 Getting Started
 ===============
 
-Installation:
+Installation
 -------------
 
 This section guides users through the installation of CLAS. Prerequisites include: - Python 3.8 or higher - Required libraries (see requirements.txt)
