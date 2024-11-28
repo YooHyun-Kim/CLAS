@@ -1,4 +1,4 @@
-Black and White Chef Project
+Project Info
 =============================
 
 Overview:
