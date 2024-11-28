@@ -1,7 +1,7 @@
 Release Notes
 -------------
 
-v1.0.0 - Initial Platform Launch
+**v1.0.0 - Initial Platform Launch**
 :Date: 2024-MM-DD
 :Version: 1.0.0
 Features
@@ -47,7 +47,7 @@ Bug Fixes
 * Improved error handling in recipe submission process
 * Stabilized real-time voting mechanism
 
-v1.2.0 - Community Collaboration Edition
+**v1.2.0 - Community Collaboration Edition**
 
 
 Planned Features
