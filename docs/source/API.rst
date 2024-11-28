@@ -1,5 +1,4 @@
-
-CLAS API Guide
+API
 ==============
 Overview
 The CLAS API provides programmatic access to recipe sharing, user management, and platform features.
