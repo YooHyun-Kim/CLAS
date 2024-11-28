@@ -14,11 +14,11 @@ Welcome to CLAS Documentation
    getting_started
    usage
    technical_overview
-   api
-   configuration_guidelines
+   API
+   configuration
    maintenance_troubleshooting
    contribution_guidelines
-   faq
+   FAQ
    release_notes
 
 About the Project
