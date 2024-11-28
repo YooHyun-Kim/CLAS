@@ -3,14 +3,14 @@ Technical Overview
 
 Our project leverages a modular architecture to ensure flexibility and scalability. Below is a summary of the core components and underlying technologies:
 
-Architecture:
+Architecture
 -------------
 
 - **Frontend**: Built using modern web technologies such as **HTML**, **CSS**, and **JavaScript**, ensuring a responsive and intuitive user interface.
 - **Backend**: Powered by a robust framework like **Django** or **Flask**, providing secure and efficient API endpoints.
 - **Database**: Utilizes **PostgreSQL** for reliable data storage and retrieval.
 
-Core Components:
+Core Components
 ----------------
 
 1. **User Management System**:
@@ -25,7 +25,7 @@ Core Components:
    - Enables users to comment, like, and bookmark recipes.
    - Includes a rating system to highlight popular recipes.
 
-Underlying Technologies:
+Underlying Technologies
 ------------------------
 
 - **Programming Language**: Python for backend development and JavaScript for frontend interactivity.
