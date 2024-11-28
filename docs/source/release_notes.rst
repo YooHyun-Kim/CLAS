@@ -33,10 +33,10 @@ New Features
 
 Performance Improvements
 
-*40% faster database query responses
-*Reduced memory consumption
-*Optimized caching mechanisms
-*Improved backend scalability
+* 40% faster database query responses
+* Reduced memory consumption
+* Optimized caching mechanisms
+* Improved backend scalability
 
 Bug Fixes
 
@@ -50,11 +50,11 @@ v1.2.0 - Community Collaboration Edition
 
 Planned Features
 
-*Collaborative recipe development tools
-*Professional chef network integration
-*Machine learning-powered recipe suggestions
-*Enhanced social sharing capabilities
-*Community challenge and competition modules
+* Collaborative recipe development tools
+* Professional chef network integration
+* Machine learning-powered recipe suggestions
+* Enhanced social sharing capabilities
+* Community challenge and competition modules
 
 Upgrade Recommendations
 
@@ -64,8 +64,8 @@ Upgrade Recommendations
 
 Known Limitations
 
-*Potential latency during high-traffic periods
-*Initial limited international recipe categorization
+* Potential latency during high-traffic periods
+* Initial limited international recipe categorization
 
 Contribution
 
@@ -74,8 +74,8 @@ Please refer to CONTRIBUTING.rst for detailed guidelines on:
 
 Reporting issues
 
-*Submitting pull requests
-*Code of conduct
+* Submitting pull requests
+* Code of conduct
 
 Licensing
 
