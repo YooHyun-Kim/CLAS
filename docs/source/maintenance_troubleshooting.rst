@@ -1,10 +1,5 @@
-Routine Maintenance for CLAS (Early Stage)
+Maintenance and Troubleshooting for CLAS
 ==========================================
-
-Backup Recipes Manually
------------------------
-- Since the app is in its early stages, set up a manual backup process.
-- Export recipes to a file (e.g., JSON/CSV) using available tools or by copying data into a safe location.
 
 Check for Updates
 -----------------
@@ -15,14 +10,6 @@ Clear Temporary Data
 --------------------
 - If performance issues arise, clear temporary files (manually, if no in-app function exists).
 - This can be done by locating and removing unused local files in the app directory.
-
-Monitor the Database
---------------------
-- Keep the database lightweight by limiting unnecessary test data.
-- Periodically review and remove outdated or duplicate entries.
-
-Common Issues and Simple Fixes (For Early Stage Development)
-============================================================
 
 App Crashes Frequently
 -----------------------
@@ -46,10 +33,4 @@ Performance Slows Down
   - Optimize database queries.
   - Delete unnecessary dummy data.
 
-Login Issues (If Applicable)
-----------------------------
-- **Cause:** Incomplete user authentication setup.
-- **Fix:**
-  - Revisit and debug the login API or authentication logic.
-  - Use mock data for local testing to avoid server dependency.
 
