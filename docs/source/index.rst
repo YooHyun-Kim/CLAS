@@ -16,7 +16,7 @@ Welcome to CLAS Documentation
    technical_overview
    api
    configuration_guidelines
-   maintenance_and_troubleshooting
+   maintenance_troubleshooting
    contribution_guidelines
    faq
    release_notes
