@@ -4,7 +4,7 @@ Contribution Guidelines
 
 We welcome contributions to the **Black and White Chef** project! Whether you're fixing bugs, improving documentation, or adding new features, your input is highly valued. Please follow the guidelines below to ensure a smooth contribution process.
 
-Getting Started:
+Getting Started
 ----------------
 
 1. **Fork the Repository**:
@@ -24,7 +24,7 @@ Getting Started:
      pip install -r requirements.txt
      ```
 
-Coding Standards:
+Coding Standards
 -----------------
 
 1. **Follow PEP 8**:
@@ -39,7 +39,7 @@ Coding Standards:
    - Test your code thoroughly before submission.
    - Include unit tests for any new features.
 
-Submitting Contributions:
+Submitting Contributions
 -------------------------
 
 1. **Create a New Branch**:
@@ -64,7 +64,7 @@ Submitting Contributions:
    - Navigate to the original repository and open a pull request.
    - Provide a detailed description of your changes and the issue they address.
 
-Review and Approval:
+Review and Approval
 --------------------
 
 - Your pull request will be reviewed by project maintainers.
