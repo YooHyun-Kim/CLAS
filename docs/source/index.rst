@@ -4,20 +4,18 @@
 
 Welcome to CLAS Documentation
 =============================
-
-Contents:
 ---------
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents
 
-   about
+   project_info
    getting_started
    usage
    technical_overview
-   api_reference
-   configuration_guide
+   api
+   configuration_guidelines
    maintenance_and_troubleshooting
    contribution_guidelines
    faq
