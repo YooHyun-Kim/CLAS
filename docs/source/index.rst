@@ -26,7 +26,7 @@ Contents:
 About the Project
 -----------------
 
-The CLAS (Chef: Light And Shadow) is a robust and user-friendly solution designed for efficient data tracking and logging. Its primary goal is to simplify the integration of logging functionality into diverse applications and enhance operational insights. CALS supports a wide range of customization options and technologies, ensuring adaptability across various domains.
+The CLAS (Chef: Light And Shadow) is a robust and user-friendly solution designed for efficient data tracking and logging. Its primary goal is to simplify the integration of logging functionality into diverse applications and enhance operational insights. CLAS supports a wide range of customization options and technologies, ensuring adaptability across various domains.
 
 Getting Started
 ---------------
@@ -47,7 +47,7 @@ Step-by-step examples:
 1. Import the CLAS library.
 2. Configure logging settings using the configuration file.
 3. Initialize logging using:
-   `cals_logger = CALSLogger(config)`
+   `cals_logger = CLASLogger(config)`
 
 Examples for each scenario (e.g., API logging, error monitoring) are provided in the subsequent sections.
 
