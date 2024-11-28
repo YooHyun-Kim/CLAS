@@ -58,9 +58,9 @@ Planned Features
 
 Upgrade Recommendations
 
-*Always backup user data before updating
-*Verify system compatibility
-*Review new feature documentation carefully
+* Always backup user data before updating
+* Verify system compatibility
+* Review new feature documentation carefully
 
 Known Limitations
 
