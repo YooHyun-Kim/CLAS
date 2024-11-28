@@ -53,11 +53,3 @@ Login Issues (If Applicable)
   - Revisit and debug the login API or authentication logic.
   - Use mock data for local testing to avoid server dependency.
 
-Proactive Maintenance Tips (For Early Development)
-===================================================
-
-- **Test Regularly:** Conduct small, frequent tests to catch bugs early.
-- **Keep Logs:** Implement logging to track issues and errors.
-- **Ask for Feedback:** If testers or users are involved, collect their feedback to prioritize improvements.
-- **Version Control:** Use Git or another version control system to track changes and revert when necessary.
-
